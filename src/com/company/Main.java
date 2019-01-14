@@ -10,6 +10,7 @@ public class Main {
         LeagueCTeam zenit = new LeagueCTeam("Zenit");
         LeagueCTeam spartak = new LeagueCTeam("Moscow Spartak");
         LeagueCTeam krasnodar = new LeagueCTeam("Krasnodar");
+        LeagueCTeam dinamo = new LeagueCTeam("Dinamo Moscow");
 
         League<LeagueATeam> laLiga = new League<>("laLiga");
         laLiga.addTeam(barcelona);
@@ -22,6 +23,7 @@ public class Main {
         russianPremierLeague.addTeam(zenit);
         russianPremierLeague.addTeam(spartak);
         russianPremierLeague.addTeam(krasnodar);
+        russianPremierLeague.addTeam(dinamo);
 
         russianPremierLeague.printLeagueTeams();
 
